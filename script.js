@@ -3,6 +3,8 @@ let canvas = document.getElementById('c1');
 let ctx = canvas.getContext('2d');
 window.onload = create;
 
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
 // images
 var img0 = new Image();
 img0.src = 'sprite.png';
